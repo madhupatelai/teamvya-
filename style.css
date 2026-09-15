@@ -848,3 +848,25 @@ footer small {
     }
 
 }
+
+.instagram-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    margin-top: 20px;
+    border: 1px solid #eab043;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #67260c, #c2781a);
+    color: #fff8ec;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: 0.3s ease;
+    box-shadow: 0 8px 25px rgba(103, 38, 12, 0.3);
+}
+
+.instagram-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(194, 120, 26, 0.4);
+}
